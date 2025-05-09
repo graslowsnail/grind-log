@@ -13,10 +13,11 @@ const isDivisable = (num) => {
   return true;
 }
 
-let num = 2
+let num = 20
 while (!isDivisable(num)){
-
-  num++
-  console.log(num)
+ num ++
 }
+  console.log("FOUND: ", num)
+
+//answer FOUND:  232792560
 
