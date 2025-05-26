@@ -1,5 +1,7 @@
 // euler 6
-// sum of every number squared from 1-100
+// Find the difference between:
+//The square of the sum of the first 100 natural numbers
+//The sum of the squares of the first 100 natural numbers
 
 let sqrSum= 0
 let sumSqr = 0
