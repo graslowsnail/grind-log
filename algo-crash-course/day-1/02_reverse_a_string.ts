@@ -11,7 +11,7 @@ const reverseString = (s: string) => {
   let stringLength = s.length - 1
   let reverseString = ''
   for(let i = stringLength; i >= 0; i--){
-    reverseString = reverseString.concat(s[i])
+    reverseString = reverseString.concat(s[i]!)
   }
   return reverseString
 }
