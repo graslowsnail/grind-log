@@ -12,7 +12,6 @@ const test4 = []; // should return [] (empty array)
 const test5 = [1, 2, 3, 4, 5]; // should return [1, 2, 3, 4, 5] (no duplicates)
 const test6 = ['apple', 'banana', 'apple', 'cherry', 'banana']; // should return ['apple', 'banana', 'cherry']
 
-
 const findDuplicateValue = (arr: any[]) => {
   let newArr = []
   const seenValues = new Set(arr)
